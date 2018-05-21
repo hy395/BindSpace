@@ -1,0 +1,15 @@
+Package: BindSpace
+Title: Predict Transcription Factor Binding with BindSpace model
+Version: 0.0.0.9000
+Authors@R: person("Han", "Yuan", email = "hy395@cornell.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.4.0),
+    Biostrings (>= 2.44.2),
+    Matrix (>= 1.2-12),
+    data.table (>= 1.11.2),
+    parallel (>= 3.4.0),
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
