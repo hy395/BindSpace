@@ -1,4 +1,6 @@
-install.packages("rpackage/BindSpace/", repos=NULL, type="source")
+setwd("~/Desktop/")
+install.packages("BindSpace/", repos=NULL, type="source")
+
 library(BindSpace)
 
 model.path <- system.file("extdata","model.rds" ,package="BindSpace")
@@ -37,6 +39,6 @@ plotHeatmap(b)  # plot binding signals
 ##########################
 res3 <- eval_peak(atac, model)
 a <- res3$score_table # predicted score for each peak for each TF
-b <- res3$binary_table # binary preditions
-
-
+b <- res3$binary_table # binary predictions
+apply(b, 1, max)
+apply(b, 1, sum)
