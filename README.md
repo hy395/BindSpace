@@ -21,6 +21,7 @@ git clone https://github.com/hy395/BindSpace.git
 
 ### install in R
 install.packages("BindSpace/", repos=NULL, type="source")
+NOTE: This package can't be installed in R via install_github function because of the large model file.
 
 ## test
 example code can be found under BindSpace/tests/test_package.R
