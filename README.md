@@ -4,6 +4,9 @@ TFBS models trained with HT-SELEX data using StarSpace embedding method
 ## installation
 
 ### install dependencies
+The model file is > 200MB, make sure you have git lfs installed in order to successfully download the it. Follow this instruction to install git lfs:  
+https://github.com/git-lfs/git-lfs/wiki/Installation
+
 To install this R packages, please make sure you have installed the most updated versions of the following packages:
 * data.table
 * Matrix
