@@ -5,11 +5,11 @@ TFBS models trained with HT-SELEX data using StarSpace embedding method
 
 ### install dependencies
 To install this R packages, please make sure you have installed the most updated versions of the following packages:
-*data.table
-*Matrix
-*PRROC
-*Biostrings
-*ComplexHeatmap
+* data.table
+* Matrix
+* PRROC
+* Biostrings
+* ComplexHeatmap
 
 These packages can be installed in R:  
 install.packages(c("data.table","Matrix","PRROC"))  
